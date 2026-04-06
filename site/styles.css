@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-VariableFont_wght.ttf) format("truetype-variations");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Italic-VariableFont_wght.ttf) format("truetype-variations");
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
+}
+/* Сброс всего автоматического падинга на сайте*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 145px;
+    background-color: antiquewhite;
+}
+
+/*Основной контейнер хэдэра*/
+.header{
+    background-color:#D4844A;
+    position: fixed;
+    top: 0;          /* Прижимает к самому верху */
+    left: 0;         /* Прижимает к левому краю */
+    width: 100%;     /* Растягивает на всю ширину экрана */
+    z-index: 1000;   /* Поднимает хедер "над" остальным контентом */
+}
+
+/*Второстепенный контейнер хэдэра(меняю размер)*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+/*Навигация хэдэра*/
+.header-nav {
+    display: flex; 
+    justify-content: center;
+    gap: 100px ;
+    align-items: center;           
+    padding: 10px 15px;
+}
+/*Настройки списка в навигации*/
+.menu {
+    display: flex;      /* Ссылки тоже выстраиваем в ряд */
+    list-style: none;   /* Убираем маркеры (точки) */
+    gap: 20px;          /* Расстояние между пунктами меню */
+}
+
+/* Оформляем ссылки в кнопки */
+.menu-button {
+    display:inline-block;
+    padding: 12px 30px;
+    background-color:#8B3A0F;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-family: "Montserrat";
+    letter-spacing: 1.2px;
+
+}
+/* Состояние при наведении мышки */
+.menu-button:hover {
+    background-color: #712E0B;
+    color: #FFFFFF;           
+    cursor: pointer; 
+    transform: translateY(-2px); /* Кнопка слегка "подпрыгнет" вверх */
+}
+
+.logo{
+    margin: 0;
+    padding: 0;
+}
+
+/*Основная часть страницы*/
+.main-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+
+}
+
+.main-banner {
+    background-image: url("images/Главная-банер.svg");
+    height: 660px;          
+    width: calc(100% - 350px);
+    margin: 0 auto;
+    background-size: cover;    
+    background-position: center;
+    box-sizing: border-box;
+    padding-top: 300px;
+    opacity: 95%;
+    border-radius: 10px;
+
+}
+
+
+.main-banner h1 {
+    font-family: "Montserrat";
+    color: #FFFFFF;      
+    font-size: 60px;     
+    max-width: 900px;    
+    font-weight: 700;
+    line-height: 1.3;    /* Расстояние между строками */
+    text-shadow: 0px 7px 4px rgba(0,0,0,0.5);
+    margin-left: 50px;
+    text-align: left;
+}
+
+.main-p {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 550;
+    color: #3D1A00;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    width: calc(100% - 352px);
+    margin: 0 auto;
+    
+}
