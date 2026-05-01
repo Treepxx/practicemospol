@@ -332,7 +332,8 @@ body {
     padding-top: 30px;
     padding-bottom: 50px;
     width: calc(100% - 350px);
-    margin: 0 auto;}
+    margin: 0 auto;
+}
 
 .member-box{
     display: flex;
@@ -365,6 +366,86 @@ body {
     font-size: 25px;
     font-weight: 550;
     color: #3D1A00;
+}
 
+/*Контен "Новости" */
+
+.news-h1{
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 700;
+    color: #DF0A00;
+    justify-content: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: calc(100% - 350px);
+    margin: 0 auto;
+}
+
+.dashboard{
+    background-color: #F3DEC6;
+    border-radius: 20px;
+    padding: 40px;
+    width: calc(100% - 350px);
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.avatarname{
+    display: flex;
+}
+
+.avatar{
+    width: 60px;
+    
+}
+
+.name-user{
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.user{
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 650;
+    color: #DF0A00;
+    padding-bottom: 3px;
+}
+
+.date-posting{
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 600;
+    color: #8B1E19;
+    padding-left: 2px;
+
+}
+
+.fotos-post-img{
+    padding-left: 10px;
+}
+
+.fotos-post{
+    padding-top: 20px;
+}
+
+.text-post{
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 550;
+    color: #8B1E19;
+    justify-content: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    padding-left: 9px;
+
+}
+
+.divider{
+    border: none;
+    border-top: 3px solid #E1B08C;
+    margin-top: 30px;
+    width: 100%;
 
 }
