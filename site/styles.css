@@ -300,3 +300,71 @@ body {
     max-width:900px ;
 
 }
+
+/*Контен "Ресурсы" */
+
+.references{
+    display: block;
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 550;
+    color: #3D1A00;
+    justify-content: center;
+    padding-top: 20px;
+    width: calc(100% - 350px);
+    margin: 0 auto;
+    transition: 0,3;
+    
+}
+.references:hover{
+    color:#DF0A00;
+}
+
+
+/*Контен "Участники" */
+
+.members-h1{
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 700;
+    color: #DF0A00;
+    justify-content: left;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: calc(100% - 350px);
+    margin: 0 auto;}
+
+.member-box{
+    display: flex;
+    width: calc(100% - 350px);
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.member-foto{
+    width: 230px;
+}
+
+.resume{
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.fio{
+    font-family: "Montserrat";
+    font-size: 28px;
+    font-weight: 650;
+    color: #DF0A00;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.info_member{
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 550;
+    color: #3D1A00;
+
+
+}
