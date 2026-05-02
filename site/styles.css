@@ -93,7 +93,7 @@ body {
 }
 
 .main-banner {
-    background-image: url("images/Главная-банер.svg");
+    background-image: url("images/banermain.svg");
     height: 550px;          
     width: calc(100% - 450px);
     margin: 0 auto;
