@@ -9,7 +9,7 @@
 
 ## Задание
 
-Задание размещено в папке **task** в файле [README.md](task/README.md).
+Задание размещено в папке **task** в файле [README.md](https://github.com/mospol/practice-2025-1/blob/master/task/README.md).
 
 ## Вариативная часть задания
 
