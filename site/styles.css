@@ -12,7 +12,7 @@
     font-style: italic;
     font-display: swap;
 }
-/* Сброс всего автоматического падинга на сайте*/
+
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +23,6 @@ body {
     background-color: antiquewhite;
 }
 
-/*Основной контейнер хэдэра*/
 .header{
     background-color:#D4844A;
     position: fixed;
@@ -33,14 +32,12 @@ body {
     z-index: 1000;   
 }
 
-/*Второстепенный контейнер хэдэра(меняю размер)*/
 .container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0px 10px;
 }
 
-/*Навигация хэдэра*/
 .header-nav {
     display: flex; 
     justify-content: center;
@@ -48,14 +45,14 @@ body {
     align-items: center;           
     padding: 10px 15px;
 }
-/*Настройки списка в навигации*/
+
 .menu {
-    display: flex;      /* Ссылки тоже выстраиваем в ряд */
-    list-style: none;   /* Убираем маркеры (точки) */
-    gap: 20px;          /* Расстояние между пунктами меню */
+    display: flex;      
+    list-style: none;   
+    gap: 20px;          
 }
 
-/* Оформляем ссылки в кнопки */
+
 .menu-button {
     display:inline-block;
     padding: 12px 30px;
@@ -70,12 +67,12 @@ body {
     letter-spacing: 1.2px;
 
 }
-/* Состояние при наведении мышки */
+
 .menu-button:hover {
     background-color: #712E0B;
     color: #FFFFFF;           
     cursor: pointer; 
-    transform: translateY(-2px); /* Кнопка слегка "подпрыгнет" вверх */
+    transform: translateY(-2px); 
 }
 
 .logo{
@@ -83,7 +80,7 @@ body {
     padding: 0;
 }
 
-/*Основная часть страницы*/
+
 .main-img{
     display: block;
     margin-left: auto;
